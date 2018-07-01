@@ -6,7 +6,7 @@
   
   var _;
   if (is_common_js)
-    _ = require('underscore');
+    _ = require('lodash');
   else
     _ = window._;
 
